@@ -1,4 +1,4 @@
-#zabbix_wowza
+#Zabbix CloudWatch and ELB
 
 Zabbix template for CloudWatch and AWS EC2 Elastic Load Balancer monitoring.
 
