@@ -36,6 +36,7 @@ Edit zabbix-cloudwatch.py and add previously acquired key/secret to the aws_key 
 
 * Import template into zabbix in Template section of web gui
 * Add the template to the host
+* Add {$MYACCOUNT} macro to the host with value "zabbix"
 
 This code is built on
 https://github.com/lorieri/zabbix/blob/master/chef/cookbooks/zabbix-aws/templates/default/cloudwatch/zabbix-cloudwatch.py.erb
