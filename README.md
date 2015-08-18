@@ -13,7 +13,7 @@ This is installed on the host you are running the zabbix agent on and that you w
 ```
 $ git clone https://github.com/akomic/zabbix_cloudwatch
 $ cd zabbix_cloudwatch
-$ cp wowza_stats.py /etc/zabbix/externalscripts/zabbix-cloudwatch.py && chmod 755 /etc/zabbix/externalscripts/zabbix-cloudwatch.py
+$ cp zabbix-cloudwatch.py /etc/zabbix/externalscripts/zabbix-cloudwatch.py && chmod 755 /etc/zabbix/externalscripts/zabbix-cloudwatch.py
 $ cp cloudwatch.conf /etc/zabbix/zabbix_agentd.conf.d
 
 ```
