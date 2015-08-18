@@ -1412,7 +1412,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>cloudwatch.dimension[{$MYACCOUNT},UnHealthyHostCount,AWS/ELB,Average,{#LOADBALANCERNAME}]</key>
+                            <key>cloudwatch.dimension[{$MYACCOUNT},UnHealthyHostCount,AWS/ELB,Maximum,{#LOADBALANCERNAME}]</key>
                             <delay>120</delay>
                             <history>95</history>
                             <trends>1855</trends>
@@ -1460,7 +1460,7 @@
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template_Cloudwatch:cloudwatch.dimension[{$MYACCOUNT},UnHealthyHostCount,AWS/ELB,Average,{#LOADBALANCERNAME}].last()}&gt;0</expression>
+                            <expression>{Template_Cloudwatch:cloudwatch.dimension[{$MYACCOUNT},UnHealthyHostCount,AWS/ELB,Maximum,{#LOADBALANCERNAME}].last()}&gt;0</expression>
                             <name>UnHealthyHostCount : {#LOADBALANCERNAME}</name>
                             <url/>
                             <status>0</status>
