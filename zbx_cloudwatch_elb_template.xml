@@ -44,7 +44,7 @@
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>Mb/s</units>
+                    <units>b/s</units>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -53,7 +53,7 @@
                     <snmpv3_authpassphrase/>
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
-                    <formula>.00000763</formula>
+                    <formula>.13333333</formula>
                     <delay_flex/>
                     <params/>
                     <ipmi_sensor/>
@@ -86,7 +86,7 @@
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>Mb/s</units>
+                    <units>b/s</units>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -95,7 +95,7 @@
                     <snmpv3_authpassphrase/>
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
-                    <formula>.00000763</formula>
+                    <formula>.13333333</formula>
                     <delay_flex/>
                     <params/>
                     <ipmi_sensor/>
@@ -128,7 +128,7 @@
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>Mb/s</units>
+                    <units>b/s</units>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -137,7 +137,7 @@
                     <snmpv3_authpassphrase/>
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
-                    <formula>.00000763</formula>
+                    <formula>.13333333</formula>
                     <delay_flex/>
                     <params/>
                     <ipmi_sensor/>
@@ -170,7 +170,7 @@
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>Mb/s</units>
+                    <units>b/s</units>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -179,7 +179,7 @@
                     <snmpv3_authpassphrase/>
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
-                    <formula>.00000763</formula>
+                    <formula>.13333333</formula>
                     <delay_flex/>
                     <params/>
                     <ipmi_sensor/>
